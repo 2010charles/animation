@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(193, 225, 35);
+    
+}
+.container{
+    background: linear-gradient(45deg,rgb(30, 245, 66),rgb(194, 194, 79));
+    color: blue;
+    width: 700px;
+    margin-left: 430px;
+    margin-top: 200px;
+    height: 500px;
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    border: 4px solid white;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.header-elem{
+    background: linear-gradient(25deg,orange,purple);
+    color: red;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 50px;
+}
+
+@keyframes changecolor{
+    50%{
+        border: 4px solid red;
+
+    }
+}
+.main-cont{
+    border: 2px solid purple;
+    width: 400px;
+    padding: 35px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
